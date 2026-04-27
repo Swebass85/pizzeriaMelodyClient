@@ -88,7 +88,7 @@ body {
 
 .social {
   display: flex;
-  gap: 0.7rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -139,8 +139,8 @@ body {
   background: rgba(255, 255, 25, 0.8);
   border: 10px solid maroon;
   background-image:
-    linear-gradient(rgba(34, 18, 1, 0.9), rgba(128, 30, 30, 0.8)),
-    url("Images/melodylogo.png");
+    url(../Images/melodylogo.png),
+    linear-gradient(rgba(34, 18, 1, 0.9), rgba(128, 30, 30, 0.8));
 }
 
 /* Dagens lunch CONTENT */
