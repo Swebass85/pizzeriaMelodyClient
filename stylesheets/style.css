@@ -133,7 +133,7 @@ body {
   border: 10px solid maroon;
   background-image:
     linear-gradient(rgba(34, 18, 1, 0.9), rgba(128, 30, 30, 0.8)),
-    url("/images/melodylogo.png");
+    url("images/melodylogo.png");
 }
 
 /* Dagens lunch CONTENT */
