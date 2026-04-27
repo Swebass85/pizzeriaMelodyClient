@@ -307,5 +307,21 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #ffffff;
+    color: black;
+  }
+
+  .sub-header-items {
+    background-color: #2b1b12;
+  }
+
+  .nav-links a {
+    color: black;
+  }
+
+  .nav-links a:hover {
+    color: burlywood;
+  }
 }
