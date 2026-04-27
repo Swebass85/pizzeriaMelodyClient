@@ -5,6 +5,10 @@
   font-family: "Arial", sans-serif;
 }
 
+html {
+  color-scheme: light;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
@@ -301,25 +305,6 @@ body {
   .hero {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #111;
-    color: white;
-  }
-
-  .sub-header-items {
-    background-color: #2b1b12;
-  }
-
-  .nav-links a {
-    color: white;
-  }
-
-  .nav-links a:hover {
-    color: burlywood;
   }
 }
 
